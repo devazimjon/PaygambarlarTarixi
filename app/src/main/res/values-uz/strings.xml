@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bookmarks">Saqlanganlar</string>
+    <string name="profile">Profil</string>
+    <string name="apps">Ilovalar</string>
+    <string name="settings">Sozlamalar</string>
+    <string name="contact">Bog\'lanish</string>
+    <string name="accept">Ok</string>
+    <string name="decline">Ortga</string>
+    <string name="text_continue">Davom ettirish</string>
+</resources>

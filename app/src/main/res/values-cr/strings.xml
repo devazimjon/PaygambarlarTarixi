@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accept">Ок</string>
+    <string name="decline">Ортга</string>
+    <string name="text_continue">Давом еттририш</string>
+    <string name="bookmarks">Сақланганлар</string>
+    <string name="profile">Профил</string>
+    <string name="apps">Иловалар</string>
+    <string name="settings">Созламалар</string>
+    <string name="contact">Боғланиш</string>
+</resources>

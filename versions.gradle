@@ -1,0 +1,139 @@
+def libs = [:]
+ext.Libs = libs
+
+def versions = [
+        "ktlint": "0.40.0",
+]
+
+ext.Versions = versions
+
+versions.multidex_version = "2.0.1"
+
+libs.core = "androidx.core:core-ktx:1.5.0-beta02"
+libs.legacySupport = "androidx.legacy:legacy-support-v4:1.0.0"
+libs.multidex = "androidx.multidex:multidex:$versions.multidex_version"
+
+
+versions.kotlin = "1.5.0"
+libs.Kotlin = [
+        stdlib       : "org.jetbrains.kotlin:kotlin-stdlib:$versions.kotlin",
+        kotlinAndroid: "org.jetbrains.kotlin.android:$versions.kotlin",
+        gradlePlugin : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin",
+        extensions   : "org.jetbrains.kotlin:kotlin-android-extensions:$versions.kotlin",
+]
+
+libs.View = [
+        constraint: "androidx.constraintlayout:constraintlayout:2.0.4",
+        material  : "com.google.android.material:material:1.4.0-alpha01",
+        paging    : "android.arch.paging:runtime:1.0.1",
+        appCompat : "androidx.appcompat:appcompat:1.2.0",
+        recycler  : "androidx.recyclerview:recyclerview:1.2.1",
+        viewpager2 :"androidx.viewpager2:viewpager2:1.0.0",
+]
+
+versions.dagger = "2.37"
+libs.Dagger = [
+        annotations: "com.google.dagger:dagger:$versions.dagger",
+        processor  : "com.google.dagger:dagger-compiler:$versions.dagger",
+]
+
+versions.retrofit = "2.9.0"
+versions.gson = "2.8.6"
+libs.Retrofit = [
+        retrofit     : "com.squareup.retrofit2:retrofit:$versions.retrofit",
+        gson         : "com.google.code.gson:gson:$versions.gson",
+        gsonConverter: "com.squareup.retrofit2:converter-gson:$versions.retrofit",
+]
+
+versions.okHttp = "3.12.12"
+libs.OkHttp = [
+        okhttp            : "com.squareup.okhttp3:okhttp:$versions.okHttp",
+        loggingInterceptor: "com.squareup.okhttp3:logging-interceptor:$versions.okHttp",
+]
+
+versions.nav_version = "2.3.3"
+libs.Navigation = [
+        fragmentKtx    : "androidx.navigation:navigation-fragment-ktx:$versions.nav_version",
+        safeargsPlugin : "androidx.navigation:navigation-safe-args-gradle-plugin:$versions.nav_version",
+        navigationUIKtx: "androidx.navigation:navigation-ui-ktx:$versions.nav_version",
+]
+
+libs.Fragment = "androidx.fragment:fragment-ktx:1.3.2"
+
+versions.coroutines_version = "1.4.1"
+libs.Coroutines = [
+        core   : "org.jetbrains.kotlinx:kotlinx-coroutines-core:$versions.coroutines_version",
+        android: "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines_version",
+]
+
+versions.room_version = "2.2.5"
+libs.Room = [
+        runtime : "androidx.room:room-runtime:$versions.room_version",
+        compiler: "androidx.room:room-compiler:$versions.room_version",
+        roomKtx : "androidx.room:room-ktx:$versions.room_version",
+]
+
+versions.lifecycle = "2.3.1"
+libs.Lifecycle = [
+        commonJava  : "androidx.lifecycle:lifecycle-common-java8:$versions.lifecycle",
+        viewModelKtx: "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifecycle",
+        livedata    : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifecycle",
+        extensions  : "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle",
+]
+
+versions.glide_version = "4.11.0"
+libs.Glide = [
+        glide   : "com.github.bumptech.glide:glide:$versions.glide_version",
+        compiler: "com.github.bumptech.glide:compiler:$versions.glide_version",
+]
+
+Libs.lingver = "com.github.YarikSOffice:lingver:1.3.0"
+Libs.notification = "com.github.gfranks:GFMinimalNotifications:2.2.0"
+
+//Input mask
+Libs.inputMask = "com.redmadrobot:input-mask-android:6.0.0"
+
+// Circle imageview
+Libs.circleImageView = "de.hdodenhof:circleimageview:3.1.0"
+Libs.viewPagerDots = "com.tbuonomo.andrui:viewpagerdotsindicator:4.1.2"
+
+Libs.gsmAuth = "com.google.android.gms:play-services-auth:19.0.0"
+Libs.gsmAuthPhone = "com.google.android.gms:play-services-auth-api-phone:17.5.0"
+
+// compressor
+Libs.compressor = "id.zelory:compressor:2.1.0"
+
+//biometric
+Libs.biomertic = "androidx.biometric:biometric:1.0.1"
+
+//vision
+Libs.gsmVision = "com.google.android.gms:play-services-vision:20.1.2"
+Libs.ThreeTenBp = "com.jakewharton.threetenabp:threetenabp:1.3.0"
+
+Libs.testEspresso = "androidx.test.espresso:espresso-idling-resource:3.3.0"
+Libs.tensorFlow = "org.tensorflow:tensorflow-lite:1.15.0"
+
+//Chuck
+Libs.chuck = "com.readystatesoftware.chuck:library:1.1.0"
+
+//security
+Libs.securityCrypto = "androidx.security:security-crypto:1.1.0-alpha03"
+
+
+libs.Firebase = [
+        analytics  : "com.google.firebase:firebase-analytics:18.0.0",
+        crashlytics: "com.google.firebase:firebase-crashlytics:17.1.1",
+]
+
+libs.seismic = "com.squareup:seismic:1.0.2"
+libs.zxcvbn = "com.nulab-inc:zxcvbn:1.3.1"
+libs.stickyHeader = "com.yuyang:stickyheaders:1.0.1"
+libs.findbugs = "com.google.code.findbugs:jsr305:3.0.2"
+libs.viewBindingDelegate = "com.kirich1409.viewbindingpropertydelegate:viewbindingpropertydelegate:1.4.6"
+libs.Lingver = "com.github.YarikSOffice:lingver:1.3.0"
+
+libs.Folioreader =  "com.folioreader:folioreader:0.5.4"
+
+versions.r2SharedKotlin = "1.0.4-2"
+versions.r2StreamerKotlin = "1.0.4-2"
+versions.jackson = "2.9.7"

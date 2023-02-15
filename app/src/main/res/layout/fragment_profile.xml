@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A000000"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:titleTextAppearance="@style/ToolbarTextAppearance"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:title="@string/profile" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="Language"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+
+    <RadioGroup
+        android:id="@+id/language_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@color/white"
+        android:paddingHorizontal="12dp">
+
+        <RadioButton
+            android:id="@+id/language_uz"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:text="Lotin" />
+
+        <RadioButton
+            android:id="@+id/language_cr"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center_vertical"
+            android:text="Kiril" />
+
+    </RadioGroup>
+
+</LinearLayout>
